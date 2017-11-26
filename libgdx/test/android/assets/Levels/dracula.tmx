@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" nextobjectid="11">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16">
+  <image source="tiles.png" width="128" height="80"/>
+ </tileset>
+ <layer name="floors" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUANI0hmPVEBuePEi4dFwJgxG0zN9wGg40wdQUl6QWmbAwhkAI88NWQ==
+  </data>
+ </layer>
+ <layer name="walls" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUAqUB8jOUXtH7R21d9TeUXsHp70A5boDjw==
+  </data>
+ </layer>
+ <layer name="background" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztk9EKgCAMRfeaj+L/f2sEBpe1O2cEI9iBC5K6xVFFiqL4M03lmNHfcc5bs6qn+w4yvtJnvPq4ZpBg3yyYR+asOfMR19i3y9Ml82S5tfaxf8jmizu78x5uLFcY5roHo51n47l569o7N+yrfa7ubDRWzUxOrKUKdw==
+  </data>
+ </layer>
+ <objectgroup name="coins">
+  <object id="4" x="306" y="146">
+   <ellipse/>
+  </object>
+  <object id="5" x="414" y="194">
+   <ellipse/>
+  </object>
+  <object id="6" x="225" y="193">
+   <ellipse/>
+  </object>
+  <object id="7" x="87" y="240">
+   <ellipse/>
+  </object>
+  <object id="8" x="428" y="286">
+   <ellipse/>
+  </object>
+  <object id="9" x="239" y="288">
+   <ellipse/>
+  </object>
+  <object id="10" x="75" y="141">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <layer name="doors" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALqAr6BdsAwB+SE72ic0B+MhjnxYDimaQDjsABV
+  </data>
+ </layer>
+</map>
